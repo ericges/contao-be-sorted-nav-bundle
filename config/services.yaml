@@ -5,3 +5,7 @@ services:
 
   GES\Contao\BESortedNavBundle\:
     resource: '../src/{EventSubscriber}/*'
+
+  GES\Contao\BESortedNavBundle\EventSubscriber\Contao\OutputBackendTemplateSubscriber:
+    tags:
+      - { name: contao.hook, hook: outputBackendTemplate, priority: 100 }

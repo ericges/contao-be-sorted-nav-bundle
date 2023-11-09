@@ -1,6 +1,6 @@
 {
   "name": "ericges/contao-be-sorted-nav-bundle",
-  "description": "",
+  "description": "Add this to your contao project to have an alphabetically sorted backend navigation. This is useful if you have a lot of backend modules and want to find them quickly.",
   "keywords": [
     "contao",
     "backend",
@@ -23,7 +23,7 @@
   ],
   "require": {
     "php": "^7.4 || ^8.0",
-    "contao/core-bundle": "^4.13 || ^5.0",
+    "contao/core-bundle": "^4.8 || ^5.0",
     "symfony/http-foundation": "^5.4 || ^6.0"
   },
   "autoload": {
